@@ -1,0 +1,89 @@
+.container{
+    background-image: url('beauty.jpg'); 
+    height :100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Century;
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 30px ;
+    min-height: 400px ;
+    margin-right: 60px;
+    font-size :17px ;
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: blue;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition:0.5 ease;
+
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+.logo img{
+    float:left;
+    width: 220px;
+    height: auto;
+
+}
+.title{
+   position: absolute;
+   top :47%;
+   right:50%;
+}
+
+.titleh1{
+    color: #fff;
+	font-size: 85px;
+ }
+
+ 
+.button{
+   position: absolute;
+   top :60%;
+   right:36%;
+   transform: translate(-50%,-50%);
+}
+
+.btn {                     
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color:rgb(228, 254, 114);
+    transition:0.5 ease;
+    font-size: 18px;
+    text-decoration: none;  
+
+}
+
+.btn:hover{
+    background-color: white;
+    color:black; 
+}
+
+
+
